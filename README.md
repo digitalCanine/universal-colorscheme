@@ -13,10 +13,10 @@ Apply your custom terminal colorscheme to websites. Perfect for users who want t
 - 💾 **Persistent Settings** - Your colors sync across Firefox instances
 - 🌙 **Works Best with Dark Reader** - Pairs perfectly with Dark Reader for complete dark mode
 
-![Github] (./images/github.jpg "Github")
-![Youtube] (./images/youtube.jpg "Youtube")
-![Tumblr] (./images/tumblr.jpg "Tumblr")
-![Google] (./images/google.jpg "Google")
+![Github] (<https://github.com/digitalCanine/universal-colorscheme/tree/main/images/github.jpg>)
+![Youtube] (<https://github.com/digitalCanine/universal-colorscheme/tree/main/images/youtube.jpg>)
+![Tumblr] (<https://github.com/digitalCanine/universal-colorscheme/tree/main/images/tumblr.jpg>)
+![Google] (<https://github.com/digitalCanine/universal-colorscheme/tree/main/images/google.jpg>_)
 
 ## Installation
 
