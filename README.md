@@ -13,18 +13,26 @@ Apply your custom terminal colorscheme to websites. Perfect for users who want t
 - 💾 **Persistent Settings** - Your colors sync across Firefox instances
 - 🌙 **Works Best with Dark Reader** - Pairs perfectly with Dark Reader for complete dark mode
 
+![Github] (./images/github.jpg "Github")
+![Youtube] (./images/youtube.jpg "Youtube")
+![Tumblr] (./images/tumblr.jpg "Tumblr")
+![Google] (./images/google.jpg "Google")
+
 ## Installation
 
 ### From Mozilla Add-ons (Recommended)
+
 Coming soon!
 
 ### Manual Installation
+
 1. Download the latest release from [Releases](../../releases)
 2. Open Firefox and go to `about:addons`
 3. Click the gear icon → "Install Add-on From File"
 4. Select the downloaded `.xpi` file
 
 ### Development Installation
+
 1. Clone this repository
 2. Open Firefox and go to `about:debugging`
 3. Click "This Firefox" → "Load Temporary Add-on"
@@ -33,12 +41,14 @@ Coming soon!
 ## Usage
 
 ### Basic Setup
+
 1. Click the extension icon in your toolbar
 2. Customize your colors using the color pickers or hex inputs
 3. Click "Save & Apply"
 4. All pages will reload with your colorscheme
 
 ### Recommended Setup (Best Results)
+
 For the best experience, use this extension alongside **Dark Reader**:
 
 1. Install [Dark Reader](https://addons.mozilla.org/firefox/addon/darkreader/)
@@ -46,10 +56,12 @@ For the best experience, use this extension alongside **Dark Reader**:
 3. Use Universal Colorscheme to apply your custom terminal colors
 
 This combination gives you:
+
 - Dark Reader handles the dark mode conversion
 - Universal Colorscheme applies your personalized color palette
 
 ### Blocking Sites
+
 Some sites may not render correctly with custom colors:
 
 1. Navigate to the problematic site
@@ -79,6 +91,7 @@ Accent 4:        #444649
 ## How It Works
 
 Universal Colorscheme applies CSS overrides to websites to match your chosen color palette. It targets:
+
 - Page backgrounds and text
 - Links (normal, visited, hover states)
 - Form inputs
@@ -87,6 +100,7 @@ Universal Colorscheme applies CSS overrides to websites to match your chosen col
 - Scrollbars and text selection
 
 The extension is designed to be **non-invasive** - it avoids styling:
+
 - Buttons and UI widgets
 - Video players and media
 - Icons and logos
@@ -102,6 +116,7 @@ The extension is designed to be **non-invasive** - it avoids styling:
 ## Development
 
 ### Project Structure
+
 ```
 universal-colorscheme/
 ├── manifest.json       # Extension manifest
@@ -113,14 +128,17 @@ universal-colorscheme/
 ```
 
 ### Building
+
 No build process required! This is vanilla JavaScript.
 
 To package for distribution:
+
 ```bash
 zip -r universal-colorscheme.zip manifest.json popup.html popup.js content.js icon.png
 ```
 
 ### Contributing
+
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 1. Fork the repository
@@ -132,6 +150,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Privacy
 
 This extension:
+
 - ✅ **Does NOT collect any personal data**
 - ✅ **Does NOT track your browsing**
 - ✅ **Does NOT send data to external servers**
