@@ -15,10 +15,16 @@ Apply your custom terminal colorscheme to websites. Perfect for users who want t
 
 ## Examples
 
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f601a7d9-6893-48ad-b9f7-efd250a65f78" />
-<img width="1901" height="1021" alt="image" src="https://github.com/user-attachments/assets/431b4017-542a-4924-94a1-5c35ad0fae45" />
-<img width="1917" height="1073" alt="image" src="https://github.com/user-attachments/assets/69e47498-bd4b-48c0-a2c0-775bab7d9329" />
-<img width="1914" height="1075" alt="image" src="https://github.com/user-attachments/assets/ed287d26-c531-4a05-ad50-ad1e7a5cbaf2" />
+<table>
+  <tr>
+    <td><img width="460" height="260" src="https://github.com/user-attachments/assets/f601a7d9-6893-48ad-b9f7-efd250a65f78" alt="image1" /></td>
+    <td><img width="460" height="260" src="https://github.com/user-attachments/assets/431b4017-542a-4924-94a1-5c35ad0fae45" alt="image2" /></td>
+  </tr>
+  <tr>
+    <td><img width="460" height="260" src="https://github.com/user-attachments/assets/69e47498-bd4b-48c0-a2c0-775bab7d9329" alt="image3" /></td>
+    <td><img width="460" height="260" src="https://github.com/user-attachments/assets/ed287d26-c531-4a05-ad50-ad1e7a5cbaf2" alt="image4" /></td>
+  </tr>
+</table>
 
 
 ## Installation
