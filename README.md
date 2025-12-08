@@ -26,7 +26,6 @@ Apply your custom terminal colorscheme to websites. Perfect for users who want t
   </tr>
 </table>
 
-
 ## Installation
 
 ### From Mozilla Add-ons (Recommended)
@@ -60,7 +59,7 @@ Note that this release is my own private version for now
 
 ### Recommended Setup (Best Results)
 
-For the best experience, use this extension alongside **Dark Reader**:
+Dark Reader is optional, but the current code for the add-on  may cause issues with light themed websites. It is recommended that you install and use Dark Reader for best results for the current time.
 
 1. Install [Dark Reader](https://addons.mozilla.org/firefox/addon/darkreader/)
 2. Enable Dark Reader to force dark mode on all sites
