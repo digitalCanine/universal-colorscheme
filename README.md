@@ -40,6 +40,8 @@ Coming soon!
 3. Click the gear icon → "Install Add-on From File"
 4. Select the downloaded `.xpi` file
 
+Note that this release is my own private version for now
+
 ### Development Installation
 
 1. Clone this repository
