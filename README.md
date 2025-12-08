@@ -13,10 +13,19 @@ Apply your custom terminal colorscheme to websites. Perfect for users who want t
 - 💾 **Persistent Settings** - Your colors sync across Firefox instances
 - 🌙 **Works Best with Dark Reader** - Pairs perfectly with Dark Reader for complete dark mode
 
-![Github] (<https://github.com/digitalCanine/universal-colorscheme/tree/main/images/github.jpg>)
-![Youtube] (<https://github.com/digitalCanine/universal-colorscheme/tree/main/images/youtube.jpg>)
-![Tumblr] (<https://github.com/digitalCanine/universal-colorscheme/tree/main/images/tumblr.jpg>)
-![Google] (<https://github.com/digitalCanine/universal-colorscheme/tree/main/images/google.jpg>_)
+## Examples
+
+<table>
+  <tr>
+    <td><img width="460" height="260" src="https://github.com/user-attachments/assets/f601a7d9-6893-48ad-b9f7-efd250a65f78" alt="image1" /></td>
+    <td><img width="460" height="260" src="https://github.com/user-attachments/assets/431b4017-542a-4924-94a1-5c35ad0fae45" alt="image2" /></td>
+  </tr>
+  <tr>
+    <td><img width="460" height="260" src="https://github.com/user-attachments/assets/69e47498-bd4b-48c0-a2c0-775bab7d9329" alt="image3" /></td>
+    <td><img width="460" height="260" src="https://github.com/user-attachments/assets/ed287d26-c531-4a05-ad50-ad1e7a5cbaf2" alt="image4" /></td>
+  </tr>
+</table>
+
 
 ## Installation
 
