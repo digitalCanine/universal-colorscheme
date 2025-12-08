@@ -2,7 +2,7 @@
 
 Apply your custom terminal colorscheme to websites. Perfect for users who want their browser to match their terminal aesthetic.
 
-![Version](https://img.shields.io/badge/version-1.0-blue)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Features
