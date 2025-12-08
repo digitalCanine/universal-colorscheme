@@ -1,4 +1,4 @@
-# Universal Colorscheme - Firefox Extension
+# Universal Colorscheme
 
 Apply your custom terminal colorscheme to websites. Perfect for users who want their browser to match their terminal aesthetic.
 
