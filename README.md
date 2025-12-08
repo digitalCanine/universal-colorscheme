@@ -94,10 +94,6 @@ Accent 3:        #778284
 Accent 4:        #444649
 ```
 
-## Screenshots
-
-*Coming soon*
-
 ## How It Works
 
 Universal Colorscheme applies CSS overrides to websites to match your chosen color palette. It targets:
