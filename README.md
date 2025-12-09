@@ -17,7 +17,7 @@ Apply your custom terminal colorscheme to websites. Perfect for users who want t
 
 <table>
   <tr>
-    <td><img width="460" height="260" src="https://github.com/user-attachments/assets/f601a7d9-6893-48ad-b9f7-efd250a65f78" alt="image1" /></td>
+    <td><img width="460" height="260" src="https://github.com/user-attachments/assets/ab2d257b-fa7f-4d1f-b9c1-7dfe4a0f0c00" alt="image1" /></td>
     <td><img width="460" height="260" src="https://github.com/user-attachments/assets/431b4017-542a-4924-94a1-5c35ad0fae45" alt="image2" /></td>
   </tr>
   <tr>
