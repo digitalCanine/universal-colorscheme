@@ -118,6 +118,7 @@ The extension is designed to be **non-invasive** - it avoids styling:
 - **Some complex web apps** may not render perfectly (use the block feature)
 - **Light-themed sites** may require Dark Reader for full dark mode
 - **Inline styles** are preserved to avoid breaking functionality
+- **Transparency** may not work perfectly with the background color, like the Google logo
 
 ## Development
 
