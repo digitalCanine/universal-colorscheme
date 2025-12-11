@@ -30,7 +30,7 @@ Apply your custom terminal colorscheme to websites. Perfect for users who want t
 
 ### From Mozilla Add-ons (Recommended)
 
-Coming soon!
+https://addons.mozilla.org/en-CA/firefox/addon/dc-universal-colorscheme/
 
 ### Manual Installation
 
