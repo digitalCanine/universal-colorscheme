@@ -46,15 +46,61 @@ function applyColorscheme(colors) {
   const bgLight = lightenColor(colors.bg, 8);
   const bgLighter = lightenColor(colors.bg, 15);
 
-  // SIMPLE approach - only change base colors, don't force anything with inline styles
   style.textContent = `
-    /* Only set base page colors */
+    /* Base page colors */
     html {
       background-color: ${colors.bg} !important;
     }
     
     body {
       background-color: ${colors.bg} !important;
+      color: ${colors.text} !important;
+    }
+    
+    /* Google Search specific - exact class names from the HTML */
+    .RNNXgb,
+    .RNNXgb:hover,
+    .sbfc .RNNXgb,
+    .sbfc .RNNXgb:hover,
+    .emcav .RNNXgb,
+    .BgPPrc .RNNXgb,
+    .emcav .RNNXgb:hover,
+    .sbfc.emcav .RNNXgb,
+    .BgPPrc .RNNXgb:hover {
+      background: ${bgLight} !important;
+      background-color: ${bgLight} !important;
+      border-color: ${colors.accent4} !important;
+    }
+    
+    .a4bIc,
+    .gLFyf,
+    textarea.gLFyf,
+    .YacQv,
+    .SDkEP {
+      background-color: ${bgLight} !important;
+    }
+    
+    .gLFyf,
+    textarea.gLFyf {
+      color: ${colors.text} !important;
+    }
+    
+    .M8H8pb {
+      background-color: ${bgLight} !important;
+    }
+    
+    /* Search suggestions and dropdown */
+    .aajZCb,
+    .UUbT9,
+    .erkvQe,
+    .sbsb_a,
+    .sbsb_c {
+      background: ${bgLighter} !important;
+      background-color: ${bgLighter} !important;
+    }
+    
+    .wM6W7d,
+    .ClJ9Yb {
       color: ${colors.text} !important;
     }
     
@@ -78,7 +124,7 @@ function applyColorscheme(colors) {
       color: ${colors.text} !important;
     }
     
-    /* Links - only plain ones without inline styles */
+    /* Links */
     a:not([class*="button"]):not([class*="btn"]):not([role="button"]):not([style*="color"]) {
       color: ${colors.link} !important;
     }

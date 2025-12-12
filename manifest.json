@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "digitalCanine's Universal Colorscheme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Apply your custom terminal colorscheme to websites. Works best with Dark Reader for full dark mode support.",
   "permissions": [
     "storage",
