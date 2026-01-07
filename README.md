@@ -7,11 +7,11 @@ Apply your custom terminal colorscheme to websites. Perfect for users who want t
 
 ## Features
 
-- 🎨 **Customizable Color Palette** - Set background, text, link, and accent colors
-- 🖥️ **Terminal-Inspired** - Designed for users who live in the terminal
-- 🚫 **Per-Site Blocking** - Easily exclude sites that don't render well
-- 💾 **Persistent Settings** - Your colors sync across Firefox instances
-- 🌙 **Works Best with Dark Reader** - Pairs perfectly with Dark Reader for complete dark mode
+- **Customizable Color Palette** - Set background, text, link, and accent colors
+- **Terminal-Inspired** - Designed for users who live in the terminal
+- **Per-Site Blocking** - Easily exclude sites that don't render well
+- **Persistent Settings** - Your colors sync across Firefox instances
+- **Works Best with Dark Reader** - Pairs perfectly with Dark Reader for complete dark mode
 
 ## Examples
 
@@ -177,9 +177,9 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 ## Support
 
-- 🐛 **Found a bug?** [Open an issue](../../issues)
-- 💡 **Have a suggestion?** [Open an issue](../../issues)
-- ⭐ **Like this extension?** Star this repo!
+- **Found a bug?** [Open an issue](../../issues)
+- **Have a suggestion?** [Open an issue](../../issues)
+- **Like this extension?** Star this repo!
 
 ## Roadmap
 
@@ -188,7 +188,3 @@ MIT License - see [LICENSE](LICENSE) file for details
 - [ ] Per-site custom colors
 - [ ] Advanced CSS customization options
 - [ ] Integration with system theme
-
----
-
-Made with ❤️ for terminal lovers everywhere
