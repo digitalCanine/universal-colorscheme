@@ -44,6 +44,7 @@ browser.storage.sync.get(['colorscheme', 'blockedSites']).then((data) => {
     document.getElementById('accent3Hex').value = data.colorscheme.accent3;
     document.getElementById('accent4').value = data.colorscheme.accent4;
     document.getElementById('accent4Hex').value = data.colorscheme.accent4;
+    document.getElementById('skip_reload').checked = data.colorscheme.skip_reload;
   }
 
   // Check if current site is blocked
@@ -61,6 +62,8 @@ browser.storage.sync.get(['colorscheme', 'blockedSites']).then((data) => {
 
 // Save settings
 document.getElementById('saveBtn').addEventListener('click', () => {
+  const skip_reload = document.getElementById('skip_reload').checked;
+
   const colorscheme = {
     bg: document.getElementById('bgColor').value,
     text: document.getElementById('textColor').value,
@@ -69,21 +72,24 @@ document.getElementById('saveBtn').addEventListener('click', () => {
     accent1: document.getElementById('accent1').value,
     accent2: document.getElementById('accent2').value,
     accent3: document.getElementById('accent3').value,
-    accent4: document.getElementById('accent4').value
+    accent4: document.getElementById('accent4').value,
+    skip_reload: skip_reload
   };
 
   browser.storage.sync.set({ colorscheme }).then(() => {
-    // Reload all tabs to apply changes
-    browser.tabs.query({}).then((tabs) => {
-      tabs.forEach((tab) => {
-        if (tab.url.startsWith('http')) {
-          browser.tabs.reload(tab.id);
-        }
+    if (!skip_reload) {
+      // Reload all tabs to apply changes
+      browser.tabs.query({}).then((tabs) => {
+        tabs.forEach((tab) => {
+          if (tab.url.startsWith('http')) {
+            browser.tabs.reload(tab.id);
+          }
+        });
       });
-    });
+    }
 
     const status = document.getElementById('status');
-    status.textContent = 'Saved! Reloading pages...';
+    status.textContent = skip_reload ? 'Saved!' : 'Saved! Reloading pages...';
     status.style.display = 'block';
     setTimeout(() => {
       status.style.display = 'none';
